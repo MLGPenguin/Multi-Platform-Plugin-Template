@@ -42,7 +42,7 @@ To get started with this template, follow these steps:
 2. Clone your new repository to your local machine using Git:
 
 ```shell
-git clone https://github.com/your-username/multi-module-plugin-template.git
+git clone https://github.com/your-username/repository-name.git
 ```
 
 3. Open the project in your preferred Kotlin-compatible IDE (e.g., IntelliJ IDEA).
