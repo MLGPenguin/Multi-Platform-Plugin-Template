@@ -1,6 +1,6 @@
 # Multi-Module Plugin Template
 
-This is a template repository for creating Minecraft plugins using Kotlin for the Paper server software. It provides a multi-module structure using Gradle,
+This is a template repository for creating Minecraft plugins using Kotlin for Paper, Bungee and Velocity. It provides a multi-module structure using Gradle,
 perfect for developers looking to add modularity to their servers/plugins.
 
 > [!NOTE]
@@ -22,7 +22,6 @@ perfect for developers looking to add modularity to their servers/plugins.
 - A pre-configured Gradle setup for building Paper plugins with Kotlin. The built-in libraries contains:
   - [shadowJar](https://github.com/johnrengelman/shadow): to shade your dependencies into the plugin.
   - [Lamp](https://github.com/Revxrsal/Lamp): a simple to use commands annotation framework with Brigadier built into it.
-  - [Twilight](https://github.com/flytegg/twilight): an API for developers creating plugins.
 - A basic plugin template with sample code to get you started.
 - Integration with Paper API for Minecraft plugin development.
 - A well-organized project structure to keep your code clean and maintainable.
@@ -49,19 +48,17 @@ git clone https://github.com/your-username/repository-name.git
 ```
 
 3. Open the project in your preferred Kotlin-compatible IDE (e.g., IntelliJ IDEA).
-4. Customize the project information in the `<moduleName>/build.gradle.kts` file.
-5. Modify the `<moduleName>/src/main/kotlin/com/example/pluginName/PluginName.kt` file to start building your plugin.
+4. Customize the project information in all the build files and modules
 
 ### Building your plugin
 
 You can build all of your modules using Gradle:
 
 ```shell
-./gradlew shadowJar
+./gradlew build
 ```
 
-This command will compile your code, package it into a JAR file, and place it in the `<moduleName>/build/libs/` directory.
-Each module has its own build folder.
+This command will compile all your code into one plugin and place it in the /build/ folder
 
 ## Side-notes
 
