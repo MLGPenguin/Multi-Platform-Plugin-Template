@@ -4,7 +4,7 @@ This is a template repository for creating Minecraft plugins using Kotlin for Pa
 perfect for developers looking to add modularity to their servers/plugins.
 
 > [!NOTE]
-> Looking for a single-module template? Click [here](https://github.com/akkkih/plugin-template) to check it out!
+> Looking for a single-module template? Click [here](https://github.com/SuperGlueLib/SuperPluginTemplate) to check it out!
 
 ## Table of Contents
 
