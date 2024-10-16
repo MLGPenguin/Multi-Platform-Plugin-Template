@@ -1,0 +1,4 @@
+name: MultiPlatformTemplate
+version: '${version}'
+main: com.github.mlgpenguin.multiplatformtemplate.backend.MultiPlatformTemplate
+api-version: '1.18'
