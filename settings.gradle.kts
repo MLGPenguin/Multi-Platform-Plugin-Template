@@ -1,7 +1,6 @@
 plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "0.5.0"
 }
+rootProject.name = "MultiPlatformTemplate"
 
-rootProject.name = "multi-module-plugin-template"
-
-include("exampleModule")
+include("Backend", "Bungee", "Velocity", "SharedLogic")
