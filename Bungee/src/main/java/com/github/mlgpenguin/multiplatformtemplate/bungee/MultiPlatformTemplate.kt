@@ -1,16 +1,8 @@
-package com.github.mlgpenguin.multiplatformtemplate.bungee;
+package com.github.mlgpenguin.multiplatformtemplate.bungee
 
-import net.md_5.bungee.api.plugin.Plugin;
+import net.md_5.bungee.api.plugin.Plugin
 
-public final class MultiPlatformTemplate extends Plugin {
-
-    @Override
-    public void onEnable() {
-        // Plugin startup logic
-    }
-
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
-    }
+class MultiPlatformTemplate: Plugin() {
+    override fun onEnable() {}
+    override fun onDisable() {}
 }
