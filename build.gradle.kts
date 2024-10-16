@@ -24,5 +24,14 @@ tasks {
     shadowJar {
         destinationDirectory.set(file("$rootDir/build"))
     }
+
+    clean {
+        dependsOn(
+            project(":Velocity").tasks.clean,
+            project(":Bungee").tasks.clean,
+            project(":Backend").tasks.clean,
+            project(":SharedLogic").tasks.clean,
+        )
+    }
 }
 
